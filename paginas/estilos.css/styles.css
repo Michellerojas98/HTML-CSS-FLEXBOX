@@ -1,0 +1,117 @@
+/* Estilos globales */
+body {
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment:fixed ;
+}
+
+/* Estilos para el banner */
+.banner {
+    background-image: url(../img/banner.jpg);
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del banner */
+    background-position: center; /* Centra la imagen en el banner */
+    color: white; /* Color del texto */
+    text-align: center; /* Alinea el texto al centro */
+    padding: 30px 0; /* Añade relleno superior e inferior para espaciar el contenido */
+    display: flex; /* Utiliza Flexbox para centrar el contenido verticalmente */
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    font-size: 40px; /* Tamaño de fuente opcional */
+    font-weight: normal; /* Grosor de fuente (normal por defecto) */
+}
+
+.banner-title {
+    font-family: 'Great Vibes', cursive;
+
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Estilos para la columna de opciones */
+
+.option {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.8s; /* Transición para el color del texto */
+}
+   
+.options-column {
+    flex-basis: 20%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.options-title {
+    font-size: 1.8rem;
+}
+
+.option-box {
+    margin-bottom: 30px;
+}
+
+.option-link {
+    display: block;
+    padding: 10px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.option-link:hover {
+    background-color: hsl(0, 87%, 41%);
+}
+
+/* Estilos para la sección de boxes */
+/* Estilos para la sección de cajas */
+.container {
+    display: flex; /* Convertir la sección en un contenedor flex */
+    justify-content:center; /* Espacio uniformemente distribuido entre las cajas */
+    margin:90px 350px; /* Espacio superior e inferior entre las cajas */
+    width: 290px;
+}
+
+.box {
+    flex: 2; /* Hace que ambas cajas tengan el mismo tamaño */
+    padding:80px; /* Espacio interno en cada caja */
+    background-image: url(../img/cajas3.png); /* Color de fondo de las cajas */
+    background-color: #e7afaf;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9); /* Sombra ligera */
+    text-align: center; /* Centrar el texto en las cajas */
+    margin: 30px;
+}
+
+.box img {
+    width: 200px; /* Ancho deseado */
+    height: 200px; /* Alto deseado */
+    top: 30px; /* Posición vertical desde la parte superior */
+    left: 30px; /* Posición horizontal desde la izquierda */
+}
+
+.box-paragraph {
+    margin-top: 1px; /* Espacio superior para el párrafo en cada caja */
+}
+
+
+/* Estilos para el párrafo inferior */
+.text-inferior {
+    font-size:1rem;
+    padding: 9px 200px;
+    white-space: nowrap;
+    color: aqua;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
